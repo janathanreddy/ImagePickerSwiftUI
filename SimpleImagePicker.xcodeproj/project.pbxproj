@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		21BAD48025C1CF0300F4E04A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BAD47F25C1CF0300F4E04A /* AppDelegate.swift */; };
 		21BAD48225C1CF0300F4E04A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BAD48125C1CF0300F4E04A /* SceneDelegate.swift */; };
-		21BAD48425C1CF0300F4E04A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BAD48325C1CF0300F4E04A /* ContentView.swift */; };
 		21BAD48625C1CF0400F4E04A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BAD48525C1CF0400F4E04A /* Assets.xcassets */; };
 		21BAD48925C1CF0400F4E04A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BAD48825C1CF0400F4E04A /* Preview Assets.xcassets */; };
 		21BAD48C25C1CF0400F4E04A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BAD48A25C1CF0400F4E04A /* LaunchScreen.storyboard */; };
 		21BAD49725C1CF0400F4E04A /* SimpleImagePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BAD49625C1CF0400F4E04A /* SimpleImagePickerTests.swift */; };
 		21BAD4A225C1CF0500F4E04A /* SimpleImagePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BAD4A125C1CF0500F4E04A /* SimpleImagePickerUITests.swift */; };
+		21BAD4B325C1CF2F00F4E04A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BAD4B225C1CF2E00F4E04A /* ContentView.swift */; };
+		21BAD4BB25C1CF4200F4E04A /* Imagepicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BAD4BA25C1CF4200F4E04A /* Imagepicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		21BAD47C25C1CF0300F4E04A /* SimpleImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BAD47F25C1CF0300F4E04A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21BAD48125C1CF0300F4E04A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		21BAD48325C1CF0300F4E04A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21BAD48525C1CF0400F4E04A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21BAD48825C1CF0400F4E04A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		21BAD48B25C1CF0400F4E04A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		21BAD49D25C1CF0500F4E04A /* SimpleImagePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleImagePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BAD4A125C1CF0500F4E04A /* SimpleImagePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleImagePickerUITests.swift; sourceTree = "<group>"; };
 		21BAD4A325C1CF0500F4E04A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21BAD4B225C1CF2E00F4E04A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../Library/Autosave Information/SimpleImagePicker/SimpleImagePicker/ContentView.swift"; sourceTree = "<group>"; };
+		21BAD4BA25C1CF4200F4E04A /* Imagepicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Imagepicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,8 @@
 			children = (
 				21BAD47F25C1CF0300F4E04A /* AppDelegate.swift */,
 				21BAD48125C1CF0300F4E04A /* SceneDelegate.swift */,
-				21BAD48325C1CF0300F4E04A /* ContentView.swift */,
+				21BAD4B225C1CF2E00F4E04A /* ContentView.swift */,
+				21BAD4BA25C1CF4200F4E04A /* Imagepicker.swift */,
 				21BAD48525C1CF0400F4E04A /* Assets.xcassets */,
 				21BAD48A25C1CF0400F4E04A /* LaunchScreen.storyboard */,
 				21BAD48D25C1CF0400F4E04A /* Info.plist */,
@@ -267,8 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				21BAD48025C1CF0300F4E04A /* AppDelegate.swift in Sources */,
+				21BAD4BB25C1CF4200F4E04A /* Imagepicker.swift in Sources */,
 				21BAD48225C1CF0300F4E04A /* SceneDelegate.swift in Sources */,
-				21BAD48425C1CF0300F4E04A /* ContentView.swift in Sources */,
+				21BAD4B325C1CF2F00F4E04A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
